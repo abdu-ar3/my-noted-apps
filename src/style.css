@@ -1,0 +1,139 @@
+/* src/style.css */
+/* style.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #202124;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.note-input {
+  max-width: 750px; /* Sesuaikan dengan lebar maksimum yang Anda inginkan */
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-input__title,
+.note-input__body {
+  margin-bottom: 16px;
+}
+
+.note-input__title label,
+.note-input__body label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.note-input__title input,
+.note-input__body textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.note-input__title__char-limit {
+  font-size: 14px;
+  text-align: right;
+  color: #aaa;
+}
+
+.note-input button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.note-input button:hover {
+  background-color: #0056b3;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.notes-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Sesuaikan nilai margin-top sesuai kebutuhan Anda */
+}
+
+.note-section {
+  flex: 1;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 16px;
+  margin-right: 16px;
+}
+
+.note-item {
+  display: inline-block;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  width: 200px; /* Sesuaikan lebar sesuai kebutuhan Anda */
+}
+
+.note-item__action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.note-item__delete-button {
+  background-color: #ff5f52;
+  color: #fff;
+}
+
+.note-item__archive-button {
+  background-color: #ffad4f;
+  color: #fff;
+}
+
+/* ... (CSS lainnya tetap sama) */
+
+/* Add more styles as needed */
